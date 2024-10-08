@@ -4,7 +4,7 @@ import cv2
 from tensorflow.keras.models import load_model
 
 # Load the pre-trained model
-model = load_model('emotion_recognition_model.h5')  # Use SavedModel path if necessary
+model = load_model('model.h5')  # Use SavedModel path if necessary
 
 # Define the emotion labels
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
