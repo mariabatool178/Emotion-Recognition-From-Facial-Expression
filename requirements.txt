@@ -137,3 +137,7 @@ numpy
 streamlit
 tensorflow.keras.models
 OpenCv 2
+streamlit==1.25.0         # Streamlit for the web interface
+tensorflow==2.10.0        # TensorFlow for loading the model
+opencv-python==4.5.5.64   # OpenCV for image processing
+numpy==1.21.4             # NumPy for array operations
